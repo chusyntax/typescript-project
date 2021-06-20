@@ -8,7 +8,7 @@ body{
   }
   h1{
     margin: 40px auto;
-    color: #ff0aa7;
+    color: #32005c;
     text-align: center;
   }
   ul{
@@ -21,7 +21,7 @@ body{
     margin: 10px auto;
   }
   li h4{
-    color: #ff0aa7;
+    color: #32005c;
     margin: 0;
     text-transform: capitalize;
   }
@@ -58,7 +58,7 @@ body{
   button{
     color: white;
     border: 0;
-    background: #ff0aa7;
+    background: #32005c;
     padding: 6px;
     min-width: 80px;
     border-radius: 4px;
