@@ -1,8 +1,11 @@
+let greet: Function;
 
-let example :any; //you can change the type anytime
-let mixeedArray2:any[] = []//for mixed arrays, can add any type
-let chu2: {
-    name:any,
-    ageNow:any,
+greet = ()=>{
+    console.log('hello')
 }
 
+//
+//can also add default values for parameter
+let add =(a:number, b:number, c?:number|string )=>{
+console.log(a +b )
+}

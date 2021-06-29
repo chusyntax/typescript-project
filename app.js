@@ -1,3 +1,9 @@
-var example; //you can change the type anytime
-var mixeedArray2 = []; //for mixed arrays, can add any type
-var chu2;
+var greet;
+greet = function () {
+    console.log('hello');
+};
+//
+//can also add default values for parameter
+var add = function (a, b, c) {
+    console.log(a + b);
+};
