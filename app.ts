@@ -1,3 +1,5 @@
+type StringOrNum = string | number; //type alias
+
 let greet: Function;
 
 greet = ()=>{
@@ -6,6 +8,7 @@ greet = ()=>{
 
 //
 //can also add default values for parameter
-let add =(a:number, b:number, c?:number|string )=>{
-console.log(a +b )
+//in typescript, functions return void when it does not have a return in it
+let add =(a:StringOrNum, b:StringOrNum ,c?:number|string )=>{
+console.log(a)
 }

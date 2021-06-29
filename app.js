@@ -4,6 +4,7 @@ greet = function () {
 };
 //
 //can also add default values for parameter
+//in typescript, functions return void when it does not have a return in it
 var add = function (a, b, c) {
-    console.log(a + b);
+    console.log(a);
 };
