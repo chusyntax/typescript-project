@@ -1,24 +1,18 @@
-// const mario:string = 'chu';
-// let age = 30;
-
-// const circ = (diameter:number) =>{
-// return diameter * Math.PI;
-// }
-
-// console.log(circ(20))
-
-let names = ['thabo', 'thando','vanilla']
-names.push('homer')
-
-//Mixed Arrays
-//Must declare all different types in initial array
-let mixed = [1, 'thabo', true, 'yes']
-
-//object
-//cant add on extra properties once the object is defined
-//must have same keys if wanting to re-define
-let chu ={
-    name:'chu',
-    age: 2,
-    fromSA:true,
+//explicit types
+let character:string;
+let age:number;
+let online:boolean;
+let array: string[];
+let pushArray:string[]=[];  //declares an empty array
+let mixedArray:(string | number | boolean)[] = []; //for declaring mixed arrays (union type)
+let union:string|number;//for declaring union variables
+let ob:object;
+let ob2: {
+    name:string,
+    currentAge:number,
+    online:boolean
 }
+
+character = 'chu'
+age = 24
+online = true
