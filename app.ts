@@ -1,5 +1,5 @@
 // classes
-class Invoice {
+ class Invoice {
   
     constructor(
         readonly client: string,
