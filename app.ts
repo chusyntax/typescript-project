@@ -36,7 +36,7 @@ class ListTemplate{
 ){}
   
     format() {
-      return `${this.client} owes $${this.amount} for ${this.details}`;
+      return `${this.client} owes R${this.amount} for ${this.details}`;
     }
   }
 
